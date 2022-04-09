@@ -80,7 +80,7 @@
      <form class="form-inline form-center  ">        
        
         <div class="col" >
-          <input type="text" class="form-control" placeholder="">
+          <input type="search" class="form-control" placeholder="">
         </div>
         <button type="button" class=" btn botao">Buscar</button>
       </form>
@@ -103,6 +103,7 @@
             <img src="./Img/imgmuseu.jpg" class=" img-fluid " />
           </div>
           <h5 class=" text-uppercase "> Museu do Ipiranga </h5>
+          <br>
            </a>
       </div>
       <div class=" col-lg-3 col-md-6 mb-lg-0 mb-4 ">
@@ -118,7 +119,8 @@
           <div class=" img-container mb-3 ">
             <img src=" ./Img/img masp.jpg " class=" img-fluid " />
           </div>
-          <h5 class=" text-uppercase "> Masp </h5>          
+          <h5 class=" text-uppercase "> Masp </h5>  
+          <br>        
         </a>
       </div>
     </div>
@@ -126,6 +128,12 @@
 </div>
 <!-- Fim do conteúdo 1 -->
 
+<!-- Mapa/localização -->
+
+<div id="map" class="container-fluid"></div>
+
+
+<!-- Fim Mapa/Localização -->
   
 
   <!--NOSSOS SERVICOS-->
@@ -270,6 +278,16 @@
       new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
     <script src="./js/script.js"></script>
+
+    <!-- meu Script -->
+    <script src="./js/index.js"></script>
+
+    <!-- Script google maps -->
+    
+
+      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH-zgXdqy71REV-kBZAThUw9_3IdPY1ao&region=BR&callback=initMap">    </script>
+
+
 </body>
 
 </html>

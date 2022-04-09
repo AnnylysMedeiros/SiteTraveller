@@ -105,6 +105,10 @@
   height: 200px; 
  }
 
+#map {
+    height: 600px;
+    width: 1200px;
+}
  
 /* media querie */
 
@@ -123,4 +127,6 @@
 }
 
     }
+
+
     
