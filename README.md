@@ -8,7 +8,7 @@ Na versão atual foi implemeteada a api do [Google Maps](https://developers.goog
 
 
 ### Onde acessar o site
-<http://kkkkkkk>
+<http://sitetraveller.s3-website-us-east-1.amazonaws.com/>
 
 
 ### Integrantes
